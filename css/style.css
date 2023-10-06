@@ -168,7 +168,7 @@ header {
   .kepler-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 4rem;
     align-items: end;
     margin-top: 10rem;
   }
@@ -191,7 +191,29 @@ header {
 
 .info-videos {
   margin-top: 10rem;
+  text-align: center;
 }
+
+.info-videos h2 {
+  font-family: var(--fontSecundary);
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.info-videos button {
+  border: 1px solid var(--VeryDarkGray);
+  padding: 2rem;
+}
+.info-videos button a {
+  font-family: var(--fontSecundary);
+  text-transform: uppercase;
+  color: var(--VeryDarkGray);
+  font-weight: 700;
+}
+.info-videos button:hover {
+  background-color: var(--Black);
+  color: var(--White);
+}
+
 .grid-videos {
   margin-top: 5rem;
 }
@@ -202,8 +224,8 @@ header {
 
 .bg-info-videos {
   background-color: var(--ligthGray);
+  padding: 2rem 0;
 }
-
 @media (min-width: 480px) {
   .grid-videos {
     display: grid;
@@ -214,6 +236,7 @@ header {
   .info-videos {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .grid-videos div {
     position: relative;
@@ -230,5 +253,8 @@ header {
     height: 35rem;
     object-fit: cover;
     transition: transform 300ms ease;
+  }
+  .bg-info-videos {
+    padding: 0;
   }
 }

@@ -30,12 +30,16 @@ img {
   width: 100%;
   height: auto;
 }
+.img-icon {
+  max-width: 15%;
+}
 a {
   text-decoration: none;
   color: var(--White);
 }
 ul {
   margin: 0;
+  padding: 0;
 }
 li {
   list-style: none;
@@ -65,7 +69,7 @@ body {
 /* header */
 
 header {
-  background-image: url(/images/desktop/pexels-felix-mittermeier-957040.jpg);
+  background-image: url(/images/desktop/hero.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,6 +86,8 @@ header {
     display: flex;
     gap: 2rem;
     align-items: center;
+    text-align: center;
+    padding: 0;
   }
 }
 
@@ -139,10 +145,16 @@ header {
   color: var(--White);
   font-family: var(--fontSecundary);
   font-weight: 300;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   border: 2px solid var(--White);
-  margin-top: 11rem;
+  margin-top: 6rem;
   padding: 2rem;
+}
+@media (min-width: 480px) {
+  .hero h1 {
+    font-size: 4.5rem;
+    margin-top: 12rem;
+  }
 }
 
 /* kepler  */
@@ -211,6 +223,8 @@ header {
 }
 .info-videos button:hover {
   background-color: var(--Black);
+}
+.info-videos button:hover a {
   color: var(--White);
 }
 
@@ -256,5 +270,49 @@ header {
   }
   .bg-info-videos {
     padding: 0;
+  }
+}
+
+/* footer */
+.footer {
+  background-color: var(--Black);
+  color: var(--White);
+  text-align: center;
+  margin-top: 5rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.footer-info_brand-nav p {
+  font-family: var(--fontSecundary);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+.footer-info_copy p {
+  margin-bottom: 0;
+}
+.footer-info_brand-nav {
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 480px) {
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-info_brand-nav {
+    text-align: left;
+  }
+  .footer-info_copy {
+    text-align: right;
+  }
+
+  .footer {
+    margin-top: 13rem;
+  }
+  .footer-info_brand-nav {
+    margin-bottom: 1rem;
   }
 }

@@ -75,6 +75,15 @@ header {
   background-size: cover;
   height: 65rem;
 }
+
+.header {
+  background-image: url(/images/desktop/hero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+}
+
 .menu-navegacion {
   display: flex;
   justify-content: space-between;
@@ -105,17 +114,6 @@ header {
   color: var(--White);
   text-transform: uppercase;
 }
-/* .menu-navegacion_item a {
-  box-shadow: inset 0 0 0 0 #54b3d6;
-  color: var(--White);
-  margin: 0 -0.25rem;
-  padding: 1rem;
-  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-/* .menu-navegacion_item a:hover {
-  box-shadow: inset 120px 0 0 0 #54b3d6;
-  color: white;
-} */
 
 .menu-navegacion_item a {
   text-decoration: none;
@@ -202,7 +200,7 @@ header {
 /* GRID VIDEOS  */
 
 .info-videos {
-  margin-top: 10rem;
+  margin-top: 15rem;
   text-align: center;
 }
 
@@ -210,6 +208,7 @@ header {
   font-family: var(--fontSecundary);
   font-size: 3rem;
   text-transform: uppercase;
+  padding-top: 2rem;
 }
 .info-videos button {
   border: 1px solid var(--VeryDarkGray);

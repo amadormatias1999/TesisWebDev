@@ -84,6 +84,12 @@ header {
   height: 20rem;
 }
 
+@media (max-width: 992px) {
+  .menu-navegacion_item a {
+    color: var(--Black);
+  }
+}
+
 .menu-navegacion {
   display: flex;
   justify-content: space-between;

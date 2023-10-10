@@ -206,7 +206,7 @@ header {
 /* GRID VIDEOS  */
 
 .info-videos {
-  margin-top: 15rem;
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -236,6 +236,9 @@ header {
 .grid-videos {
   margin-top: 5rem;
 }
+.grid-videos div {
+  margin-top: 2rem;
+}
 .grid-videos img {
   width: 100%;
   height: auto;
@@ -256,6 +259,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem;
   }
   .grid-videos div {
     position: relative;
@@ -299,6 +303,10 @@ header {
 }
 .footer-info_brand-nav {
   margin-bottom: 5rem;
+}
+
+.footer-info_brand-nav a {
+  color: var(--White);
 }
 
 @media (min-width: 480px) {

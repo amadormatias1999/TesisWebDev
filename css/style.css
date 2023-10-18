@@ -394,6 +394,14 @@ header {
   text-align: center;
   margin-top: 5rem;
 }
+.bg-bar-insti p {
+  font-size: 2.5rem;
+  margin-top: 10rem;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-style: italic;
+  color: gray;
+}
 .img-bar-insti {
   max-width: 80%;
   margin-top: 5rem;
@@ -404,7 +412,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
     background-color: var(--ligthGray);
     padding: 2rem;
   }

@@ -362,9 +362,9 @@ header {
   background-color: var(--ligthGray);
   padding: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 7px 6px 5px 1px rgba(227, 227, 227, 0.95);
-  -webkit-box-shadow: 7px 6px 5px 1px rgba(227, 227, 227, 0.95);
-  -moz-box-shadow: 7px 6px 5px 1px rgba(227, 227, 227, 0.95);
+  box-shadow: 0px 0px 21px 3px rgba(105, 105, 105, 0.75);
+  -webkit-box-shadow: 0px 0px 21px 3px rgba(105, 105, 105, 0.75);
+  -moz-box-shadow: 0px 0px 21px 3px rgba(105, 105, 105, 0.75);
 }
 .grid-cards h3 {
   font-weight: 900;

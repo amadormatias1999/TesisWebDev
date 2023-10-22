@@ -7,6 +7,7 @@
   --ligthGray: hsla(0, 0%, 89%, 0.649);
 
   --VeryDarkGray: hsl(0, 0%, 41%);
+  --CardColor: hsl(40, 100%, 60%); /* Un color naranja vibrante como ejemplo */
 
   /* fuenets  */
 
@@ -53,12 +54,6 @@ body {
 #miVideo {
   width: 100%;
   height: auto;
-  background: rgb(235, 180, 238);
-  background: linear-gradient(
-    207deg,
-    rgba(235, 180, 238, 1) 11%,
-    rgba(180, 62, 176, 1) 80%
-  );
 }
 
 /* utilidades */
@@ -430,6 +425,8 @@ header {
 .cards-nosotros {
   margin-top: 5rem;
   padding: 2rem;
+  background-color: var(--ligthGray);
+  border-radius: 0.5rem;
 }
 
 @media (min-width: 480px) {
@@ -450,7 +447,7 @@ header {
 
 .cards-nosotros img {
   max-width: 5%;
-  min-width: 30%;
+  min-width: 25%;
   height: auto;
   border-radius: 50%;
   border: 3px solid #a443ffb0;
@@ -462,4 +459,8 @@ header {
     align-items: center;
     gap: 3rem;
   }
+}
+
+.cards-nosotros-heading h4 a {
+  color: var(--Black);
 }

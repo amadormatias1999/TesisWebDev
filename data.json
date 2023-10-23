@@ -1,0 +1,31 @@
+{
+  "materiales": [
+    {
+      "Titulo": "Editores de codigo",
+      "Descripcion": "Aquí te presentamos algunos de los editores de código más populares y versátiles que te ayudarán a escribir, depurar y administrar tu código de manera eficiente.",
+      "Imagen": "/images/Imagenes para carrusel/1.png",
+      "Enlace": "https://code.visualstudio.com/, https://atom.en.softonic.com/"
+    },
+    {
+      "Titulo": "Material de apoyo para los tutoriales",
+      "Descripcion": "Potencia tus habilidades de desarrollo web con estos valiosos materiales de apoyo cuidadosamente seleccionados para complementar tus videotutoriales.",
+
+      "Imagen": "/img/Ropa/hamza-nouasria-owpsBDBK5nY-unsplash.webp",
+      "Enlace": ""
+    },
+    {
+      "Titulo": "¡A explorar el mundo del código!",
+      "Descripcion": "Sumérgete en el mundo del desarrollo web con estos recursos de documentación oficial. Explora enlaces a valiosos recursos que te ayudarán a comprender cómo se construyen sitios web y aplicaciones.",
+
+      "Imagen": "../img/Ropa/pexels-david-duky-6331511.webp",
+      "Enlace": ""
+    },
+    {
+      "Titulo": "¡Descubre el mundo de la creación web de manera sencilla y divertida",
+      "Descripcion": "En esta colección especial, encontrarás enlaces a materiales y recursos sobre desarrollo web explicados en un lenguaje amigable.¡Listo para embarcarte en un emocionante viaje de descubrimiento digital!",
+
+      "Imagen": "/images/Imagenes para carrusel/4.png",
+      "Enlace": ""
+    }
+  ]
+}

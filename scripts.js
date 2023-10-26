@@ -15,30 +15,25 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 // //Codigo cards materiales
-
 fetch("../data.json")
   .then((response) => response.json())
   .then((jsonData) => {
     const materiales = jsonData.materiales;
-    const contenedor = document.querySelector(".cards-grid-materiales"); // Cambia getElementsByClassName a querySelector
+    const contenedor = document.querySelector(".cards-grid-materiales");
 
     materiales.forEach(function (item) {
-      let elemento = document.createElement("div");
-      elemento.innerHTML = `<div class="card" style="width: 40rem">
-    <img
-      src="${item.Imagen}"
-      class="card-img-top"
-      alt="..."
-    />
-    <div class="card-body">
-      <h1>${item.Titulo}</h1> 
-      <p>
-        ${item.Descripcion} 
-      </p>
-      <button ${item.Enlace}" class="btn btn-primary boton-card">Ver mas</button>
-    </div>
-  </div>`;
-      contenedor.appendChild(elemento);
+      const cardHTML = `
+        <div class="card" style="width: 40rem">
+          <img src="${item.Imagen}" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h1>${item.Titulo}</h1>
+            <p>${item.Descripcion}</p>
+            <a href="${item.Enlace}" class="btn btn-primary boton-card">Ver mas</a>
+          </div>
+        </div>
+      `;
+
+      contenedor.innerHTML += cardHTML;
     });
   })
   .catch((error) => {

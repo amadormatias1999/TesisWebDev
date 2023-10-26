@@ -48,3 +48,10 @@ fetch("../data.json")
 // function opciones() {
 //   alert("hola mudno");
 // }
+
+// swiper
+var swiper = new Swiper(".mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});

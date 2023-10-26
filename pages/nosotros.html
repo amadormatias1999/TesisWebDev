@@ -22,13 +22,14 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
+  
     <title>Kepler | Desarrollo Web | Sobre Nosotros</title>
   </head>
   <body>
@@ -94,7 +95,7 @@
               >
             </p>
           </div>
-
+<!-- 
           <div class="grid-cards-nosotros">
             <div class="grid-cards">
               <h3>1. Innovación Educativa:</h3>
@@ -125,9 +126,55 @@
                 alienígena tan carismático?
               </p>
             </div>
-          </div>
+          </div> -->
           <div class="info-nosotros"></div>
         </article>
+      </section>
+      <section >
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide ">
+                  <div class="img-swiper">
+                    <img class="img-swiper" src="/images/imagenes para swipper/innovacion.jpg" alt="">
+                  </div>
+                
+                <div class="info-swiper contenedor-info-swiper" > 
+                  <h1>1. Innovación Educativa:</h1>
+                  <p> Kepler es un alienígena, y su elección como instructor no es
+                    casualidad. Kepler captura atención de los
+                    estudiantes. ¿Qué mejor manera
+                    de adentrarse en el mundo del desarrollo web que de la mano de
+                    un ser de otro planeta?</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                  <div class="img-swiper">
+                    <img class="img-swiper" src="/images/imagenes para swipper/simple.jpg" alt="">
+                  </div>
+                
+                <div class="info-swiper contenedor-info-swiper" > 
+                  <h1>2. Simplificación de Conceptos:</h1>
+                  <p> Usamos analogías y ejemplos que todos
+                    pueden entender, lo que facilita el proceso de aprendizaje.</p>
+                </div>
+            </div> 
+            <div class="swiper-slide">
+                  <div class="img-swiper">
+                    <img class="img-swiper" src="/images/imagenes para swipper/branding.jpeg" alt="">
+                  </div>
+                
+                <div class="info-swiper contenedor-info-swiper"> 
+                  <h1>3. Branding y Marketing:</h1>
+                  <p>  Keple es embajador de nuestro canal de tutoriales. Su diseño
+                    atractivo y distintivo ayuda a nuestro canal a destacarse entre
+                    la multitud de opciones de aprendizaje en línea.</p>
+                </div>
+            </div>
+            
+           
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
      
       <section>
@@ -218,12 +265,14 @@
       </div>
     </footer>
 
-    <script src="/scripts.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="/scripts.js"></script>
   </body>
 </html>

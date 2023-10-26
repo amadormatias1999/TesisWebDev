@@ -476,3 +476,38 @@ header {
   gap: 3rem;
   margin-top: 8rem;
 }
+
+/* swipper  */
+
+.contenedor-info-swiper {
+  width: min(95%, 95rem);
+  margin: 0 auto;
+}
+
+.info-swiper {
+  position: absolute;
+}
+
+.info-swiper h1 {
+  color: var(--White);
+}
+.swiper {
+  max-height: 70rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 2rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}

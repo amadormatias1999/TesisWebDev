@@ -18,10 +18,11 @@ const observer = new IntersectionObserver((entries) => {
 window.onscroll = function () {
   const scroll = window.scrollY;
   const barraNav = document.querySelector(".navbar");
-  if (scroll > 200) {
-    barraNav.classList.add("fixed-top");
+
+  if (scroll > 350) {
+    barraNav.classList.add("fixed-top-nav");
   } else {
-    barraNav.classList.remove("fixed-top");
+    barraNav.classList.remove("fixed-top-nav");
   }
 };
 

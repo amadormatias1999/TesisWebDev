@@ -17,9 +17,9 @@ const observer = new IntersectionObserver((entries) => {
 // NavBar Siempre presente
 window.onscroll = function () {
   const scroll = window.scrollY;
-  const barraNav = document.querySelector(".navbar");
+  const barraNav = document.querySelector(".navBar");
 
-  if (scroll > 350) {
+  if (scroll > 200) {
     barraNav.classList.add("fixed-top-nav");
   } else {
     barraNav.classList.remove("fixed-top-nav");

@@ -22,6 +22,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -30,7 +31,7 @@
   </head>
   <body>
     <header>
-    <div class="navbar">
+    <div class="navBar">
       <nav class="contenedor navbar navbar-expand-sm">
         <div class="logo">
           <img
@@ -81,30 +82,39 @@
     
       </nav>
     </div>
-  
-
-    
-
-      
       <div class="contenedor hero">
         <h1>Aprende Desarrollo Web con Kepler el Alienigena</h1>
       </div>
+     <div class="contenedor"> <a href="#tutoriales"><button class="button">
+      <span class="text">Aprender</span>
+    </button></a></div>
+      
+
+
+</button>
 
     </header>
     <main>
       <section class="kepler-info contenedor">
         <div class="kepler-info_video">
-          <video id="miVideo" autoplay loop muted>
-            <source src="videos/Kepler-Intro.MOV" />
-          </video>
+          <div data-aos="fade-up"
+     data-aos-duration="2000"><video id="miVideo" autoplay loop muted>
+      <source src="videos/Kepler-Intro.MOV" />
+    </video>
+</div>
+
+          
         </div>
-        <div class="kepler-info_text">
-          <h2>¡Hola soy Kepler!</h2>
+        <div class="kepler-info_text"><div data-aos="fade-up"
+          data-aos-duration="1000"> <h2>¡Hola soy Kepler!</h2>
           <p>
             Tu guía en el mundo del desarrollo web. Mi pasión es fusionar la
             comunicación con el diseño y el desarollo web para crear
             experiencias únicas. Únete a mí en este emocionante viaje digital.
           </p>
+     </div>
+          
+         
         </div>
       </section>
       <section class="bg-bar-insti">
@@ -129,7 +139,7 @@
         </article>
       </section>
 
-      <section>
+      <section id="tutoriales">
         <div class="bg-info-videos">
           <div class="contenedor info-videos">
             <div>
@@ -137,34 +147,34 @@
               <p>Acompaña a Kepler en estos cincos videos tutoriales</p>
             </div>
             <div>
-              <button><a href="/pages/nosotros.html">Mostrar mas</a></button>
+              <button><a href="/pages/nosotros.html">Mas Informacion</a></button>
             </div>
           </div>
         </div>
 
         <div class="grid-videos contenedor">
           <div>
-            <a href="https://youtu.be/LJ3CnSuYkDM?si=xqSElGsAeGU792GP">
+            <a href="https://youtu.be/qLPfUHWmx8g">
               <img src="images/mobile/1.jpg" alt="" class="vide-img"
             /></a>
           </div>
           <div>
-            <a href="https://youtu.be/D-IsprdPPDs?si=u7ATlEhR_s6cL-YC">
+            <a href="https://youtu.be/bwjoOp_04uc">
               <img src="images/mobile/2.jpg" alt="" class="vide-img"
             /></a>
           </div>
           <div>
-            <a href="https://youtu.be/ekKmj9rlev8?si=UUEdn48Un1fKoxQG"
+            <a href="https://youtu.be/45wIW37S3kc"
               ><img src="images/mobile/3.jpg" alt="" class="vide-img"
             /></a>
           </div>
           <div>
-            <a href="https://youtu.be/0wVnPZDxBgM?si=bM4Nn3GJSA4Es-K6"
+            <a href="https://youtu.be/AELBwEU4mnI"
               ><img src="images/mobile/4.jpg" alt="" class="vide-img"
             /></a>
           </div>
           <div>
-            <a href=""
+            <a href="https://youtu.be/BjU42ufBAuI"
               ><img src="images/mobile/5.jpg" alt="" class="vide-img"
             /></a>
           </div>
@@ -206,5 +216,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
   </body>
 </html>

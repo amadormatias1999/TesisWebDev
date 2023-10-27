@@ -153,6 +153,10 @@ header {
   background-size: 0 3px, 100% 3px;
 }
 
+.fixed-top {
+  background-color: #000;
+}
+
 /* header text */
 .hero h1 {
   text-transform: uppercase;
@@ -344,6 +348,8 @@ header {
 
 .info-nosotros-kepler {
   margin-top: 4rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .info-nosotros-kepler h2 {

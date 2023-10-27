@@ -14,6 +14,17 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
+// NavBar Siempre presente
+window.onscroll = function () {
+  const scroll = window.scrollY;
+  const barraNav = document.querySelector(".navbar");
+  if (scroll > 200) {
+    barraNav.classList.add("fixed-top");
+  } else {
+    barraNav.classList.remove("fixed-top");
+  }
+};
+
 // //Codigo cards materiales
 fetch("../data.json")
   .then((response) => response.json())

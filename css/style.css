@@ -535,7 +535,7 @@ header {
 }
 
 .parallax-bg {
-  background-image: url(/images/bg-swiper.jpg);
+  background-image: url(/images/mobile/bg-swiper.webp);
   position: absolute;
   left: 0;
   top: 0;

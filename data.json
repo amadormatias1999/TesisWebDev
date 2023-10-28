@@ -3,28 +3,28 @@
     {
       "Titulo": "Editores de codigo",
       "Descripcion": "Aquí te presentamos algunos de los editores de código más populares y versátiles que te ayudarán a escribir, depurar y administrar tu código de manera eficiente.",
-      "Imagen": "/images/imagenes para cards/1.png",
+      "Imagen": "/images/img-cards/1.webp",
       "Enlace": "https://code.visualstudio.com/, https://atom.en.softonic.com/"
     },
     {
       "Titulo": "Material para tutoriales",
       "Descripcion": "Potencia tus habilidades de desarrollo web con estos valiosos materiales de apoyo cuidadosamente seleccionados para complementar tus videotutoriales.",
 
-      "Imagen": "/images/imagenes para cards/material.jpg",
+      "Imagen": "/images/img-cards/material.webp",
       "Enlace": ""
     },
     {
       "Titulo": "¡A explorar el mundo del código!",
       "Descripcion": "Sumérgete en el mundo del desarrollo web con estos recursos de documentación oficial. Explora enlaces a valiosos recursos que te ayudarán a comprender cómo se construyen sitios web",
 
-      "Imagen": "/images/imagenes para cards/mdn.jpeg",
+      "Imagen": "/images/img-cards/mdn.webp",
       "Enlace": ""
     },
     {
       "Titulo": "¡Descubre el mundo de la creación web de manera sencilla y divertida",
       "Descripcion": "En esta colección encontrarás enlaces a materiales sobre desarrollo web explicados en un lenguaje amigable",
 
-      "Imagen": "/images/imagenes para cards/4.png",
+      "Imagen": "/images/img-cards/4.webp",
       "Enlace": ""
     }
   ]

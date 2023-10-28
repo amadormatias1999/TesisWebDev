@@ -55,11 +55,6 @@ body {
   line-height: 2; /** Interlineado**/
 }
 
-#miVideo {
-  width: 100%;
-  height: auto;
-}
-
 /* utilidades */
 .contenedor {
   max-width: 120rem; /** El ancho maximo del contenedor sera de 1200px o 120rem **/
@@ -84,7 +79,7 @@ body {
 /* header */
 
 header {
-  background-image: url(/images/bg-swiper.jpg);
+  background-image: url(/images/mobile/bg-swiper.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -237,6 +232,10 @@ header {
 
 .kepler-info {
   margin-top: 4rem;
+  text-align: center;
+}
+.kepler-info_imagen img {
+  max-width: 80%;
 }
 
 .kepler-info_text h2 {
@@ -244,12 +243,10 @@ header {
   font-family: var(--fontSecundary);
   text-transform: uppercase;
   font-weight: 300;
-  text-align: center;
 }
 .kepler-info_text p {
   font-size: 1.6rem;
   font-family: var(--fontPrimary);
-  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -258,12 +255,13 @@ header {
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
     align-items: end;
+    justify-content: center;
     margin-top: 10rem;
   }
   .kepler-info_text {
     grid-row: 1/2;
   }
-  .kepler-info_video {
+  .kepler-info_imagen {
     grid-column: 2/3;
   }
   .kepler-info_text p {

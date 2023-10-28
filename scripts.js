@@ -52,15 +52,6 @@ fetch("../data.json")
     console.error("Error:", error);
   });
 
-// XPAND BOTON FUNCTION
-// no funciona
-// const boton = document.getElementsByClassName("boton-card");
-// boton.addEventListener("click", opciones);
-
-// function opciones() {
-//   alert("hola mudno");
-// }
-
 // swiper
 var swiper = new Swiper(".mySwiper", {
   speed: 600,

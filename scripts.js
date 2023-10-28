@@ -37,10 +37,15 @@ fetch("../data.json")
       const cardHTML = `
         <div class="card" style="width: 40rem">
           <img src="${item.Imagen}" class="card-img-top" alt="..." />
-          <div class="card-body">
+          <div class="card-body d-flex flex-column justify-content-between my-4">
             <h1>${item.Titulo}</h1>
-            <p>${item.Descripcion}</p>
-            <a href="${item.Enlace}" class="btn btn-primary boton-card">Ver mas</a>
+              <p>${item.Descripcion}</p>
+          
+              <a href="${item.Enlace}">
+                  <div class="d-grid gap-2"> 
+                  <button class="btn btn-primary py-3 fs-4" type="button">Explorar</button>
+                  </div>
+              </a>
           </div>
         </div>
       `;
@@ -58,6 +63,6 @@ var swiper = new Swiper(".mySwiper", {
   parallax: true,
   loop: true,
   autoplay: {
-    delay: 3000,
+    delay: 4000,
   },
 });

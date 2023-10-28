@@ -7,7 +7,6 @@
   --ligthGray: hsla(0, 0%, 89%, 0.649);
 
   --VeryDarkGray: hsl(0, 0%, 41%);
-  --CardColor: hsl(40, 100%, 60%); /* Un color naranja vibrante como ejemplo */
 
   /* fuenets  */
 
@@ -83,7 +82,6 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 .header {
@@ -163,6 +161,10 @@ header {
 }
 
 /* header text */
+.hero {
+  padding-bottom: 2rem;
+}
+
 .hero h1 {
   text-transform: uppercase;
   color: var(--White);
@@ -173,7 +175,7 @@ header {
   margin-top: 6rem;
   padding: 2rem;
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .hero h1 {
     font-size: 4.5rem;
     margin-top: 12rem;
@@ -181,7 +183,7 @@ header {
 }
 
 .button {
-  margin-top: 20rem;
+  margin-top: 10rem;
   align-items: center;
   background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
@@ -396,22 +398,42 @@ header {
 
 /* Sobre nosotros  */
 
+.info-nosotros-kepler-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(/images/kepler-var.webp);
+  background-size: cover;
+  background-position: center;
+}
+.info-nosotros-kepler-bg h2 {
+  font-size: 3.5rem;
+  font-family: var(--fontSecundary);
+  text-transform: uppercase;
+  color: var(--White);
+}
+
 .info-nosotros-kepler {
   margin-top: 4rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
+  padding: 4rem 0;
 }
 
 .info-nosotros-kepler h2 {
   font-size: 3.5rem;
   font-family: var(--fontSecundary);
   text-transform: uppercase;
-  font-weight: 400;
 }
 .info-nosotros-kepler p {
   font-family: var(--fontSecundary);
   margin-bottom: 4rem;
 }
+.info-nosotros-kepler-bg p {
+  font-family: var(--fontPrimary);
+  font-weight: 600;
+  color: var(--White);
+  margin-bottom: 4rem;
+}
+
 /* bar institiutos  */
 
 .bar-insti {

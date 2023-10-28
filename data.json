@@ -1,31 +1,31 @@
 {
   "materiales": [
     {
-      "Titulo": "Editores de codigo",
+      "Titulo": "Editor de codigo",
       "Descripcion": "Aquí te presentamos algunos de los editores de código más populares y versátiles que te ayudarán a escribir, depurar y administrar tu código de manera eficiente.",
       "Imagen": "/images/img-cards/1.webp",
-      "Enlace": "https://code.visualstudio.com/, https://atom.en.softonic.com/"
+      "Enlace": "https://code.visualstudio.com/"
     },
     {
       "Titulo": "Material para tutoriales",
-      "Descripcion": "Potencia tus habilidades de desarrollo web con estos valiosos materiales de apoyo cuidadosamente seleccionados para complementar tus videotutoriales.",
+      "Descripcion": "En este enlace encontraras material complememtario a los videotutoriales.",
 
       "Imagen": "/images/img-cards/material.webp",
-      "Enlace": ""
+      "Enlace": "https://docs.google.com/presentation/d/1hVcugFMiUw5xeByln0frGgotErpU9AMKtkMArqPfCLE/edit?usp=sharing"
     },
     {
       "Titulo": "¡A explorar el mundo del código!",
-      "Descripcion": "Sumérgete en el mundo del desarrollo web con estos recursos de documentación oficial. Explora enlaces a valiosos recursos que te ayudarán a comprender cómo se construyen sitios web",
+      "Descripcion": "Sumérgete en el mundo del desarrollo web con este recurso de documentación oficial. MDN Web Docs te ayudara a comprender cómo se construyen los sitios web",
 
       "Imagen": "/images/img-cards/mdn.webp",
-      "Enlace": ""
+      "Enlace": "https://developer.mozilla.org/es/"
     },
     {
       "Titulo": "¡Descubre el mundo de la creación web de manera sencilla y divertida",
-      "Descripcion": "En esta colección encontrarás enlaces a materiales sobre desarrollo web explicados en un lenguaje amigable",
+      "Descripcion": "En esta colección encontrarás un material sobre desarrollo web explicados de forma comprensible y amigable.",
 
       "Imagen": "/images/img-cards/4.webp",
-      "Enlace": ""
+      "Enlace": "https://docs.google.com/presentation/d/1IXezPFVx6Lxkr8RARZKWQEYPoD4nA50_039ob5y0Uic/edit?usp=sharing"
     }
   ]
 }

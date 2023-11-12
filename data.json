@@ -2,7 +2,7 @@
   "materiales": [
     {
       "Titulo": "Editor de codigo",
-      "Descripcion": "Aquí te presentamos algunos de los editores de código más populares y versátiles que te ayudarán a escribir, depurar y administrar tu código de manera eficiente.",
+      "Descripcion": "Aquí te presentamos uno de los editores de código más populares y versátiles que te ayudarán a escribir, depurar y administrar tu código de manera eficiente.",
       "Imagen": "/images/img-cards/1.webp",
       "Enlace": "https://code.visualstudio.com/"
     },
@@ -15,7 +15,7 @@
     },
     {
       "Titulo": "¡A explorar el mundo del código!",
-      "Descripcion": "Sumérgete en el mundo del desarrollo web con este recurso de documentación oficial. MDN Web Docs te ayudara a comprender cómo se construyen los sitios web",
+      "Descripcion": "Sumérgete en el mundo de la programación web con este recurso de documentación oficial. MDN Web Docs te ayudara a comprender cómo se construyen los sitios web",
 
       "Imagen": "/images/img-cards/mdn.webp",
       "Enlace": "https://developer.mozilla.org/es/"
